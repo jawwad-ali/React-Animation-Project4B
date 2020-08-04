@@ -1,0 +1,16 @@
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow:hidden;
+    background-image: linear-gradient(to right , #7C05C0 , #c702bd);
+    height:60px;
+    z-index:10;
+}
+.main-heading{
+    font-size:18px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
