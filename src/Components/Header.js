@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./Header.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Brain from "./images/brain.svg"

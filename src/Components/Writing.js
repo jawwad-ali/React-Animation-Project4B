@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 import copyWritingImg from "./images/webcp.svg"
 import contentWritingImg from "./images/contentWriting.svg"
 
-import useWebAnimations , {backInLeft} from "@wellyshen/use-web-animations";
+import useWebAnimations  from "@wellyshen/use-web-animations";
 
 export default function Writing() {
     const { ref: a } = useWebAnimations({
@@ -49,7 +49,7 @@ export default function Writing() {
                 <div className="container">
                     <div className="row no-gutters">
                         <div className="col-sm-12 col-md-12 col-lg-6 ">
-                            <img className="writingImg" src={uxImg} ref={a} />
+                            <img className="writingImg" src={uxImg} ref={a} alt="writing"/>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection ">
                             <h2 style={{ marginLeft: "50px" }} >ux writing</h2>
@@ -78,11 +78,11 @@ export default function Writing() {
                             </p>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 " style={{ marginTop: "-70px" }}>
-                            <img className="writingImg" src={copyWritingImg} ref={b} />
+                            <img className="writingImg" src={copyWritingImg} ref={b} alt="writing" />
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-6 " style={{ marginTop: "-70px" }}>
-                            <img className="writingImg" src={contentWritingImg} ref={c} />
+                            <img className="writingImg" src={contentWritingImg} ref={c} alt="writing" />
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection " style={{ marginTop: "-120px" }}>
                             <h2 style={{ marginLeft: "50px" }} >Content Writing</h2>
