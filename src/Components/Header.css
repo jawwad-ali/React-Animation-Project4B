@@ -47,3 +47,39 @@
 .layerMachine{
     position: absolute;
 }
+@media only screen and (max-width: 600px){
+    .heading-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px;
+        margin-top: -60px;
+    }
+    .img-Div{
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px;
+    }
+    .firstHalf{
+        font-size:50px;
+    }
+    .secondHalf{
+        font-size:30px;
+    }
+    .header-text{
+        font-size:14px;
+        text-align: center;
+    }
+    .headerBtn{
+        margin-top: 5px;
+    }
+    .brain-img{
+        margin-bottom: -250px;
+        margin-left: 50px;
+        /* background: #000; */
+        /* height:250px; */
+    }
+    .layerMachine{
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+}

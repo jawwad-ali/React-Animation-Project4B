@@ -38,7 +38,7 @@ export default function Header() {
                 </div>
 
                 <div className="col-sm-12 col-md-12 col-lg-6 img-Div" ref={b}>
-                    <img src={Brain} alt="brain" className=" brain-img"  ref={ref}/>
+                    <img src={Brain} alt="brain" className="brain-img"  ref={ref}/>
                     <img src={layerMachine} alt="layer Machine" className="layerMachine" />
                 </div>
 
