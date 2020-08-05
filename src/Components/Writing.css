@@ -30,3 +30,44 @@ h2{
     margin-left: 12px;
     list-style-type: disc;
 }
+@media only screen and (max-width: 600px){
+    .writingImg{
+        width: 350px;
+        margin-left: -10px;
+    }
+    .writingTextSection{
+        margin-top: -250px;
+        text-align: center;
+        margin-left: -20px;
+    }
+    .margin-right{
+        margin-right: 50px;
+    }
+    .writingText{
+        margin-left: 10px;
+        text-align: left;
+    }
+    .column-rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sm-heading{
+        font-size:25px;
+    }
+   .col-reverse{
+       display: flex;
+        flex-direction: column-reverse;
+   }
+   .pr-top{
+       position: relative;
+       top:450px;
+   }
+   .pr-top-rev{
+       position: relative;
+       top:-300px;
+   }
+   .margin-top-rev{
+       position: relative;
+       margin-top:-550px;
+   }
+}

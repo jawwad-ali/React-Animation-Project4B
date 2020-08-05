@@ -51,12 +51,12 @@ export default function Writing() {
                         <div className="col-sm-12 col-md-12 col-lg-6 ">
                             <img className="writingImg" src={uxImg} ref={a} alt="writing"/>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection ">
+                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection margin-right">
                             <h2 style={{ marginLeft: "50px" }} >ux writing</h2>
                             <p className="writingText" style={{ marginLeft: "50px" }}>
                                 <Typewriter
                                     options={{
-                                        strings: ["I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button.This includes every type of content from on - screen help systems, user onboarding and in -app messages to push notifications and tooltips. I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button.This includes every type of content from on - screen help systems, user onboarding and in -app messages to push notifications and tooltips."],
+                                        strings: ["I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button.This includes every type of content from on - screen help systems, user onboarding and in -app messages to push notifications and tooltips."],
                                         autoStart: true,
                                         loop: true,
 
@@ -65,9 +65,9 @@ export default function Writing() {
                             </p>
                         </div>
 
-                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection " style={{ marginTop: "-120px" }}>
-                            <h2 >Website Copywriting</h2>
-                            <p className="writingText">
+                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection pr-top" style={{ marginTop: "-120px" }}>
+                            <h2 className="sm-heading" style={{ marginLeft: "50px" }}>Website Copywriting</h2>
+                            <p className="writingText" style={{ marginLeft: "50px" }}>
                                 <Typewriter
                                     options={{
                                         strings: ["Your website is a dialogue with your audience. I capture the essence of your business and communicate it clearly. Carefully considered writing and SEO best practices allow me to craft the perfect user journey online. Let me draw the map that guides users every step of the way from discovery, to consideration, to conversion."],
@@ -77,15 +77,15 @@ export default function Writing() {
                                 />
                             </p>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-6 " style={{ marginTop: "-70px" }}>
+                        <div className="col-sm-12 col-md-12 col-lg-6 pr-top-rev" style={{ marginTop: "-70px" }}>
                             <img className="writingImg" src={copyWritingImg} ref={b} alt="writing" />
                         </div>
 
-                        <div className="col-sm-12 col-md-12 col-lg-6 " style={{ marginTop: "-70px" }}>
+                        <div className="col-sm-12 col-md-12 col-lg-6" style={{ marginTop: "-70px" }}>
                             <img className="writingImg" src={contentWritingImg} ref={c} alt="writing" />
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection " style={{ marginTop: "-120px" }}>
-                            <h2 style={{ marginLeft: "50px" }} >Content Writing</h2>
+                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection margin-top-rev" style={{ marginTop: "-120px" }}>
+                            <h2 className="sm-heading" style={{ marginLeft: "50px" }} >Content Writing</h2>
                             <p className="writingText" style={{ marginLeft: "50px" }}>
                                 <Typewriter
                                     options={{

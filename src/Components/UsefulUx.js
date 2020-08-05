@@ -51,7 +51,7 @@ export default function UsefulUx() {
                 <div className="row">
                     <div className="col-lg-4 bs-cards" ref={ref}>
                         <div className="card">
-                            <img className="sampleImgSection card-img-top"  src={chatbot} alt="Card  cap" />
+                            <img className="sampleImgSection card-img-top"  src={chatbot} alt="Card cap" />
                             <div className="card-body">
                                 <h5 className="card-title">Scripted Chatbot</h5>
                                 <p className="card-text">Conversation design guidelines such as chatbot personality, flowcharts, and
@@ -62,7 +62,7 @@ export default function UsefulUx() {
                     </div>
                     <div className="col-lg-4 bs-cards" ref={b}>
                         <div className="card">
-                            <img className="sampleImgSection card-img-top"  src={startScale} alt="Card  cap" />
+                            <img className="sampleImgSection card-img-top"  src={startScale} alt="Card cap" />
                             <div className="card-body">
                                 <h5 className="card-title">Product Development</h5>
                                 <p className="card-text">As the sole UX writer on a product team building the 'Uber of marketing', I 
@@ -73,7 +73,7 @@ export default function UsefulUx() {
                     </div>
                     <div className="col-lg-4 bs-cards" ref={c}>
                         <div className="card">
-                            <img className="sampleImgSection card-img-top"  src={speed} alt="Card  cap" />
+                            <img className="sampleImgSection card-img-top"  src={speed} alt="Card cap" />
                             <div className="card-body">
                                 <h5 className="card-title">User Onboarding</h5>
                                 <p className="card-text">Here is the first screen in an onboarding process I wrote for a SaaS product.
