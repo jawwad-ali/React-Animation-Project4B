@@ -1,83 +1,167 @@
-.header{
-    background-image: linear-gradient(to right,#4B06C1 , #B40ABF);
+.header {
+    background-image: linear-gradient(to right, #4B06C1, #B40ABF);
     height: 105vh;
     overflow: hidden;
 }
-.firstHalf{
-    font-size:100px;
+
+.firstHalf {
+    font-size: 100px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color:white;
+    color: white;
     display: block;
     margin-top: 100px;
-    margin-left:100px;
+    margin-left: 100px;
 }
-.secondHalf{
-    font-size:60px;
+
+.secondHalf {
+    font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    margin-left:100px;
-    color:white;
+    margin-left: 100px;
+    color: white;
 }
-.header-text{
-    font-size:22px;
+
+.header-text {
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
-    margin-left:100px;
+    margin-left: 100px;
     margin-top: 17px;
-    color:white;
+    color: white;
 }
-.headerBtn{
-    font-size:16px;
+
+.headerBtn {
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(#22F0D8 , #1C68C1);
-    color:white;
-    border-radius:50px;
-    padding:14px 42px;
-    border:none;
+    background-image: linear-gradient(#22F0D8, #1C68C1);
+    color: white;
+    border-radius: 50px;
+    padding: 14px 42px;
+    border: none;
     margin-left: 90px;
     margin-top: 80px;
 }
-.img-Div{
+
+.img-Div {
     position: relative;
 }
-.brain-img{
+
+.brain-img {
     position: absolute;
-    bottom:20px;
+    bottom: 20px;
 }
-.layerMachine{
+
+.layerMachine {
     position: absolute;
 }
-@media only screen and (max-width: 600px){
-    .heading-section{
+
+@media only screen and (max-width: 600px) {
+    .heading-section {
         display: flex;
         flex-direction: column;
         margin-left: -50px;
         margin-top: -60px;
     }
-    .img-Div{
+
+    .img-Div {
         display: flex;
         flex-direction: column;
         margin-left: -50px;
     }
-    .firstHalf{
-        font-size:50px;
+
+    .firstHalf {
+        font-size: 50px;
     }
-    .secondHalf{
-        font-size:30px;
+
+    .secondHalf {
+        font-size: 30px;
     }
-    .header-text{
-        font-size:14px;
+
+    .header-text {
+        font-size: 14px;
         text-align: center;
     }
-    .headerBtn{
+
+    .headerBtn {
         margin-top: 5px;
     }
-    .brain-img{
+
+    .brain-img {
         margin-bottom: -250px;
         margin-left: 50px;
     }
-    .layerMachine{
+
+    .layerMachine {
         margin-top: 80px;
         margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .heading-section {
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .img-Div {
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px;
+    }
+
+    .brain-img {
+        margin-bottom: -550px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .heading-section {
+        text-align: center;
+        display: block;
+        position: relative;
+        left: 250px;
+    }
+
+    .img-Div {
+        display: block;
+        position: relative;
+        left: -190px;
+        top: -150px;
+    }
+
+    .header-text {
+        text-align: center;
+        width: 1000px;
+        position: relative;
+        left: -300px;
+        top: 50px;
+    }
+
+    .brain-img {
+        width: 700px;
+        position: relative;
+        top: 700px;
+        right: 130px;
+    }
+
+    .layerMachine {
+        position: relative;
+        top: 900px;
+        width: 750px;
+        left: -150px;
+    }
+}
+@media only screen and (min-width:1200px){
+    .heading-section{
+        margin-left: -300px;
+    }
+    .header-text{
+        margin-left: 400px;
+        width:600px;
+    }
+    .img-Div{
+        position: relative;
+        top:-800px;
+        left:450px;
     }
 }

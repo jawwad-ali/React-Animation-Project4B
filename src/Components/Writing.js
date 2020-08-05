@@ -48,7 +48,7 @@ export default function Writing() {
             <div className="container-fluid px-0 writingSection">
                 <div className="container">
                     <div className="row no-gutters">
-                        <div className="col-sm-12 col-md-12 col-lg-6 ">
+                        <div className="col-sm-12 col-md-12 col-lg-6 writingImgDiv">
                             <img className="writingImg" src={uxImg} ref={a} alt="writing"/>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection margin-right">
@@ -64,8 +64,8 @@ export default function Writing() {
                                 />
                             </p>
                         </div>
-
-                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection pr-top" style={{ marginTop: "-120px" }}>
+                        
+                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection writingSectionTwo pr-top writingSectionLg" style={{ marginTop: "-120px" }}>
                             <h2 className="sm-heading" style={{ marginLeft: "50px" }}>Website Copywriting</h2>
                             <p className="writingText" style={{ marginLeft: "50px" }}>
                                 <Typewriter
@@ -77,14 +77,14 @@ export default function Writing() {
                                 />
                             </p>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-6 pr-top-rev" style={{ marginTop: "-70px" }}>
+                         <div className="col-sm-12 col-md-12 col-lg-6 pr-top-rev imgSectionTwo imgSectionLg" style={{ marginTop: "-70px" }}>
                             <img className="writingImg" src={copyWritingImg} ref={b} alt="writing" />
                         </div>
 
-                        <div className="col-sm-12 col-md-12 col-lg-6" style={{ marginTop: "-70px" }}>
+                        <div className="col-sm-12 col-md-12 col-lg-6 imgSectionThree imgSectionLgThree" style={{ marginTop: "-70px" }}>
                             <img className="writingImg" src={contentWritingImg} ref={c} alt="writing" />
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection margin-top-rev" style={{ marginTop: "-120px" }}>
+                        <div className="col-sm-12 col-md-12 col-lg-6 writingTextSection margin-top-rev writingSectionThree" style={{ marginTop: "-120px" }}>
                             <h2 className="sm-heading" style={{ marginLeft: "50px" }} >Content Writing</h2>
                             <p className="writingText" style={{ marginLeft: "50px" }}>
                                 <Typewriter
@@ -96,7 +96,6 @@ export default function Writing() {
                                 />
                             </p>
                         </div>
-
                     </div>
                 </div>
             </div>

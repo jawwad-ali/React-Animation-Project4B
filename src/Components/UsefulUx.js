@@ -49,7 +49,7 @@ export default function UsefulUx() {
                     <h4 >Useful UX</h4>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 bs-cards" ref={ref}>
+                    <div className="col-sm-12 col-md-6 col-lg-4 bs-cards" ref={ref}>
                         <div className="card">
                             <img className="sampleImgSection card-img-top"  src={chatbot} alt="Card cap" />
                             <div className="card-body">
@@ -60,7 +60,7 @@ export default function UsefulUx() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 bs-cards" ref={b}>
+                    <div className="col-sm-12 col-md-6 col-lg-4 bs-cards" ref={b}>
                         <div className="card">
                             <img className="sampleImgSection card-img-top"  src={startScale} alt="Card cap" />
                             <div className="card-body">
@@ -71,7 +71,7 @@ export default function UsefulUx() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 bs-cards" ref={c}>
+                    <div className="col-sm-12 col-md-12 col-lg-4 bs-cards" ref={c}>
                         <div className="card">
                             <img className="sampleImgSection card-img-top"  src={speed} alt="Card cap" />
                             <div className="card-body">

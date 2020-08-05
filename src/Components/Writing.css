@@ -1,73 +1,174 @@
-.writingSection{
-    background-image: linear-gradient(#9603BD , #7C05C0 , #6C079D );
+.writingSection {
+    background-image: linear-gradient(#9603BD, #7C05C0, #6C079D);
 }
-.writingImg{
+.writingImg {
     width: 580px;
     height: 390px;
     margin-top: 150px;
 }
-h2{
+
+h2 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-size:35px;
+    font-size: 35px;
     font-weight: bold;
-    color:black;
+    color: black;
     margin-top: 210px;
-    color:white;
+    color: white;
 }
-.writingText{
+
+.writingText {
     font-family: 'Montserrat', sans-serif;
-    font-size:16px;
-    color:white;
+    font-size: 16px;
+    color: white;
     font-weight: none !important;
     margin-top: 35px;
 }
-.listText{
+
+.listText {
     font-family: 'Montserrat', sans-serif;
-    font-size:16px;
-    color:white;
+    font-size: 16px;
+    color: white;
     display: inline-block;
     margin-left: 12px;
     list-style-type: disc;
 }
-@media only screen and (max-width: 600px){
-    .writingImg{
+
+@media only screen and (max-width: 600px) {
+    .writingImg {
         width: 350px;
         margin-left: -10px;
     }
-    .writingTextSection{
+
+    .writingTextSection {
         margin-top: -250px;
         text-align: center;
         margin-left: -20px;
     }
-    .margin-right{
+
+    .margin-right {
         margin-right: 50px;
     }
-    .writingText{
+
+    .writingText {
         margin-left: 10px;
         text-align: left;
     }
-    .column-rev{
+
+    .column-rev {
         display: flex;
         flex-direction: column-reverse;
     }
-    .sm-heading{
-        font-size:25px;
+
+    .sm-heading {
+        font-size: 25px;
     }
-   .col-reverse{
-       display: flex;
-        flex-direction: column-reverse;
-   }
-   .pr-top{
-       position: relative;
-       top:450px;
-   }
-   .pr-top-rev{
-       position: relative;
-       top:-300px;
-   }
-   .margin-top-rev{
-       position: relative;
-       margin-top:-550px;
-   }
+
+    .pr-top {
+        position: relative;
+        top: 450px;
+    }
+
+    .pr-top-rev {
+        position: relative;
+        top: -300px;
+    }
+
+    .margin-top-rev {
+        position: relative;
+        margin-top: -550px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .writingImg {
+        margin-left: -30px;
+        width: 750px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .writingText {
+        font-size: 22px;
+    }
+
+    .pr-top {
+        position: relative;
+        top: 450px;
+    }
+
+    .pr-top-rev {
+        position: relative;
+        top: -300px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .writingImgDiv{
+        display: block;
+        position: relative;
+        left:100px;
+    }
+    .writingText{
+        font-size:16px;
+    }
+    .writingTextSection{
+        display: block;
+        position: relative;
+        top:450px;
+        left:-250px;
+    }
+    .writingSectionTwo{
+        position: relative;
+        left:230px;
+        top:800px;
+    }
+    .writingImg{
+        position: relative;
+    }
+    .imgSectionTwo{
+        position: relative;
+        top:390px;
+        right:350px;
+    }
+    .imgSectionThree{
+        position: relative;
+        top:800px;
+        left:110px;
+    }
+    .writingSection{
+        height:215vh;
+    }
+    .writingSectionThree{
+        position: relative;
+        top:1300px;
+
+    }
+}
+@media only screen and (min-width:1200px){
+    .writingImgDiv{
+        position: relative;
+        left:-50px;
+    }
+    .writingTextSection{
+        position: relative;
+        top:-10px;
+        left:50px;
+    }
+    .writingSectionLg{
+        position: relative;
+        left:-30px;
+    }
+    .imgSectionLg{
+        position: relative;
+        top:0px;
+        left:5px;
+    }
+    .imgSectionLgThree{
+        position: relative;
+        top:-50px;
+        left:-70px;
+    }
 }

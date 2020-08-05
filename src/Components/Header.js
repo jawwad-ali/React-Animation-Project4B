@@ -26,7 +26,7 @@ export default function Header() {
     return (
         <div className="container-fluid header">
             <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-6  heading-section " ref={a}> 
+                <div className="col-sm-12 col-md-12 col-lg-6  heading-section" ref={a}> 
                     <h1 className="header-heading" >
                         <span className="firstHalf">cortex</span>
                         <span className="secondHalf">copywriter</span>
